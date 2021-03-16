@@ -52,7 +52,7 @@ margin-bottom:25px;
     font-size:1.6666666666666667em;
     color:#221950;
 }
-.vedo{
+.video{
     height: 700px;
     position: relative;
 
@@ -62,6 +62,7 @@ margin-bottom:25px;
 }
 .faq{
     padding-top:35px;
+    padding-bottom: 50px;
 }
 .sq{
     width:20px;
@@ -171,4 +172,30 @@ float: left;}
     to {
         transform: rotate(360deg)
     }
+}
+@media(min-width:300px) and (max-width:767px){
+    .video{
+        height: auto;
+    }
+    .videoButton{
+        height: 70px;
+        width: 200px;
+        top: 34%;
+        left: 23%;
+    }
+    .playIcon{
+        width:70px;
+        height: 70px;;
+    }
+    .video video{
+    
+        object-fit: cover;
+    }
+}
+@media(min-width:768px) and (max-width:1024px){
+    .video{
+        height: auto;
+    }
+    .videoButton{    top: 36%;
+        left: 36%;}
 }
